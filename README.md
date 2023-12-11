@@ -1,3 +1,6 @@
+[!IMPORTANT]
+Se debería de crear un archivo JS en la carpeta de libs, con el nombre de cloudinary.js
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
