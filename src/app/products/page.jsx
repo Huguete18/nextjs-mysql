@@ -8,7 +8,6 @@ async function loadProducts() {
 
 async function ProductPage() {
   const products = await loadProducts();
-  console.log(products);
   return (
     <div className="grid gap-4 grid-cols-4">
       {products.map((product) => (

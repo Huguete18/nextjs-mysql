@@ -5,10 +5,14 @@ const nextConfig = {
       {
         source: "/",
         destination: "/products",
-        permanent: true
-      }
+        permanent: true,
+      },
     ];
-  }
+  },
 };
 
-module.exports = nextConfig;
+module.exports = {
+  images: {
+    domains: ["res.cloudinary.com"],
+  },
+};
