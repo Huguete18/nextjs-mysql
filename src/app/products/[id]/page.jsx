@@ -21,7 +21,13 @@ async function ProductPage({ params }) {
           <p className="text-slate-700">{product.description}</p>
           <Buttons productId={product.id} />
         </div>
-        <Image src={product.image} width={370} height={0} alt="" />
+        <Image
+          src={product.image}
+          style={{ width: "auto" }}
+          width={370}
+          height={0}
+          alt=""
+        />
       </div>
     </section>
   );
